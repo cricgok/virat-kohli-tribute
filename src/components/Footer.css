@@ -1,0 +1,26 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600&display=swap');
+
+.footer {
+    background: linear-gradient(to right, #ff9800, white, #008000);
+    color: rgb(6, 5, 5);
+    padding: 20px;
+    text-align: center;
+    border-radius: 15px;
+    margin-top: 20px;
+    font-family: 'Montserrat', sans-serif;
+    animation: fadeIn 1s ease-in-out;
+}
+
+.footer p {
+    margin: 5px 0;
+    font-size: 1.2em;
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
